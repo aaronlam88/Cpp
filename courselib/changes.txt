@@ -1,0 +1,26 @@
+ 1/ 9/14: Changed templated class .hpp to include .cpp informatio (removed .cpp)
+ 1/12/14: Changed put/change_at to use parameter mode const T& not T&
+ 1/20/14: prompt_bool and prompt_int (still needs fixed) added to ics46goody.
+          Included stopwatch.hpp/cpp.
+          Drivers changed to .hpp
+          A few small improvements/fixes to array implementation code (in
+            conjunction with GoogleTest suites).
+ 9/12/14: Correctly implemented constructors using initialization lists {}
+          Updated drivers to test no using lf/l{: load from file/load from {}
+ 9/ 6/14: Unified problems with begin/abegin and end/aend; not there are
+            overloaded versions of begin/end that work correctly with explicit
+            iterators and implicit (for-each) iterators.
+          Updated drivers to remove all mention of abegin/aend
+ 9/28/14: Update prompt_int to allow default value (any one but minimum integer)
+          Updated errors to be more specific
+10/ 3/14: Updated pair to remove make_pair (and Map to not call it 2 places)
+          Uses ! and == for ==/!= in classes, so != on T need not be defined
+10/ 5/14: operator << fixed for all abstract classes: recursive call replaced
+            by an iteator version.
+
+
+Future:
+          Backtrack and Statespace solution code added.
+
+------------------------------------------------------------------------------
+
